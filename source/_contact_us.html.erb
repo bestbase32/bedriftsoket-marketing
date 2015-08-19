@@ -1,0 +1,39 @@
+<section class="contact section-spacing text-center">
+  <div class="container">
+    <header class="section-header">
+      <h2>Contact Us</h2>
+      <h3>Have any questions? Get in touch</h3>
+    </header>
+    <div class="row section-container">
+      <div class="col-md-9">
+        <form class="row contact_form" action='/mailer/send' method='post' id="contact-form">
+          <div class="col-md-6 col-sm-6">
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="col-md-6 col-sm-6">
+              <input type="email" class="form-control" id="email" placeholder="example@example.com">
+          </div>
+          <div class="col-md-12 col-sm-6">
+              <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+          </div>
+          <div class="col-md-12 col-sm-6">
+              <button class="btn btn-primary btn-block" id="button">Submit</button>
+          </div>
+        </form><br>
+      </div>
+      <div class="col-md-3">
+        <div class="contact-widget">
+          <br><br><i class="fa fa-envelope"></i><br>
+          <p>kundeservice@bedriftsoket.no</p><br><br>
+          <i class="fa fa-phone"></i>
+          <h2>+22 22 22 22</h2>
+        </div><!-- end contact-widget -->
+      </div><!-- end col -->
+    </div>
+  </div>
+
+  <div class="map">
+    <div id="map-canvas"></div>
+  </div>
+  </div>
+</section>
